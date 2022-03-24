@@ -1,0 +1,56 @@
+{
+  "name": "portftolio",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-brands-svg-icons": "^5.15.1",
+    "@fortawesome/free-regular-svg-icons": "^5.15.1",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/react-fontawesome": "^0.1.12",
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.21.0",
+    "emailjs-com": "^2.6.3",
+    "framer-motion": "^2.9.4",
+    "google-map-react": "^2.1.8",
+    "google-maps-react": "^2.0.6",
+    "leaflet": "^1.7.1",
+    "mapbox-gl": "^1.12.0",
+    "node-sass": "^4.14.1",
+    "nodemailer": "^6.4.14",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-gmaps": "^1.9.0",
+    "react-horizontal-timeline": "^1.5.3",
+    "react-leaflet": "^2.8.0",
+    "react-map-gl": "^5.2.9",
+    "react-photo-gallery": "^8.0.0",
+    "react-scripts": "^4.0.0",
+    "styled-components": "^5.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

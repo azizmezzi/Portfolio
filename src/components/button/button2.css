@@ -1,0 +1,63 @@
+.navBu .ulBu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navBu .ulBu .liBu {
+  --c: goldenrod;
+  color: var(--c);
+  font-size: 16px;
+  border: 0.3em solid var(--c);
+  border-radius: 0.5em;
+  width: 12em;
+  height: 3em;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: sans-serif;
+  letter-spacing: 0.1em;
+  text-align: center;
+  line-height: 3em;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  transition: 0.5s;
+  margin: 1em;
+}
+
+.navBu .ulBu .liBu .span {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  background-color: var(--c);
+  transform: translateY(150%);
+  border-radius: 50%;
+  left: calc((var(--n) - 1) * 25%);
+  transition: 0.5s;
+  transition-delay: calc((var(--n) - 1) * 0.1s);
+  z-index: -1;
+}
+
+.navBu .ulBu .liBu:hover {
+  color: rgb(241, 241, 241);
+}
+
+.navBu .ulBu .liBu:hover .span {
+  transform: translateY(0) scale(2);
+}
+
+.navBu .ulBu .liBu .span:nth-child(1) {
+  --n: 1;
+}
+
+.navBu .ulBu .liBu .span:nth-child(2) {
+  --n: 2;
+}
+
+.navBu .ulBu .liBu .span:nth-child(3) {
+  --n: 3;
+}
+
+.navBu .ulBu .liBu .span:nth-child(4) {
+  --n: 4;
+}
